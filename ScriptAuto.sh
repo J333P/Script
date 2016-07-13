@@ -5,8 +5,6 @@
 echo ----------------------debut-----------------------
 sudo apt-get install build-essential debian-keyring autoconf automake libtool flex bison scons nodejs npm git –y
 sudo apt-get update -y && sudo apt-get upgrade –y
-sudo git config --global user.name "J333P"
-sudo git config --global user.email jnpr.lh@gmail.com
 echo ----------------------meteor-----------------------
 git clone --depth 1 –b release-1.2.1-universal --single-branch http://github.com/4commerce-technologies-AG/meteor.git /home/pi/meteor
 cd /home/pi/meteor
