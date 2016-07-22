@@ -7,12 +7,13 @@ sudo apt-get install build-essential debian-keyring autoconf automake libtool fl
 sudo apt-get update -y && sudo apt-get upgrade -y
 echo ----------------------meteor-----------------------
 git clone --depth 1 -b release-1.2.1-universal --single-branch http://github.com/4commerce-technologies-AG/meteor.git /home/pi/meteor
-cd /home/pi/meteor
-meteor run
+/home/pi/meteor/meteor run
 echo ----------------------askleWA-----------------------
 git clone http://github.com/J333P/AskleWA /home/pi/AskleWA
 cd /home/pi/AskleWA
 npm install --save meteor-node-stubs react react-addons-pure-render-mixin
 meteor add aldeed:tabular && meteor add twbs:bootstrap && meteor add react-meteor-data && meteor add meteorhacks:npm
+cd /home/pi/AskleWA
+/home/pi/meteor/meteor run
 echo ----------------------fini-----------------------
 exit0
