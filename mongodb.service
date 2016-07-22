@@ -1,0 +1,12 @@
+[Unit]
+Description= MongoDB
+database
+After= network.target
+[Service]
+#User=mongodb
+User=root
+ExecStart=/usr/bin/mongod --quiet --config /exec/mongodb.conf --
+dbpath /var/lib/mongodb
+[Install]
+WantedBy=multi-user.target
+

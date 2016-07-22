@@ -3,6 +3,6 @@ Description= Askle application autoboot
 After=mongodb.target
 [Service]
 User=pi
-ExecStart=/bin/bash /home/pi/start.sh
+ExecStart=/bin/bash /home/pi/Script/start.sh
 [Install]
 WantedBy=multi-user.target
