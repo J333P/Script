@@ -1,6 +1,5 @@
 [Unit]
-Description= MongoDB
-database
+Description= MongoDB_database
 After= network.target
 [Service]
 #User=mongodb
