@@ -2,12 +2,12 @@
 # Author: Askle
 # Script d'installation automatique Meteor + Askle application
 #
-#echo --------------------------------DEBUT---------------------------------
-#sudo apt-get install build-essential mongodb debian-keyring autoconf automake libtool flex bison scons nodejs npm git -y
-#sudo apt-get update -y && sudo apt-get upgrade -y
-#echo ---------------------------CLONAGE_METEOR-----------------------------
-#git clone --depth 1 -b release-1.2.1-universal --single-branch http://github.com/4commerce-technologies-AG/meteor.git
-#/home/pi/meteor/meteor run
+echo --------------------------------DEBUT---------------------------------
+sudo apt-get install build-essential mongodb debian-keyring autoconf automake libtool flex bison scons nodejs npm git -y
+sudo apt-get update -y && sudo apt-get upgrade -y
+echo ---------------------------CLONAGE_METEOR-----------------------------
+git clone --depth 1 -b release-1.2.1-universal --single-branch http://github.com/4commerce-technologies-AG/meteor.git
+/home/pi/meteor/meteor run
 echo ---------------------------CLONAGE_ASKLEWA----------------------------
 echo --------essai 1 sur 2-------
 git clone http://github.com/J333P/AskleWA
